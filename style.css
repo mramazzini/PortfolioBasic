@@ -9,7 +9,12 @@
 }
 
 
+
 body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-y:15%;
     color: var(--blackcol);
     background-color: var(--whitecol);
     margin: 0;
@@ -36,7 +41,7 @@ body {
   .navbar {
     position: fixed;
     background-color: var(--blackcol);
-    transition: width 600ms ease;
+    transition: width 300ms ease;
     
   }
   
